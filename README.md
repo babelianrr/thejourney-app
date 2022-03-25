@@ -5,3 +5,6 @@
 - Run `npm install` to install dependencies
 - Import `thejourney.sql` to phpMyAdmin
 - Use command `npm run dev` to run the app
+
+### Known bugs
+- Bookmark icon shows twice when bookmarking a blog
