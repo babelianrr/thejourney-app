@@ -1,0 +1,74 @@
+/* Font Face */
+@font-face { font-family: 'Avenir'; src: url(./assets/AvenirLTStd-Book.otf); }
+
+/* Setup */
+* { cursor: default; }
+body { font-family: 'DM Sans', sans-serif !important; }
+code { font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
+textarea { resize: none !important; }
+
+/* Jumbotron */
+.jumbotron { background-image: url(./assets/jumbotron.png); background-position: center center; background-repeat: no-repeat; background-size: auto; }
+.jumbotron-text { text-shadow: 2px 2px 2px #000 !important; }
+
+/* Styles */
+.container-trans {background-color: rgba(255, 255, 255, 0.5);}
+.fw-9 { font-weight: 900 !important; }
+.fw-7 { font-weight: 700 !important; }
+.fw-5 { font-weight: 500 !important; }
+.fw-3 { font-weight: 300 !important; }
+.form-blue { border: 2px solid #3b82f6; border-radius: 5px; background: rgba(224, 200, 200, 0.25);}
+.btn-blue { background: #0d6efd !important; border-radius: 5px !important; color: #fff !important;}
+.btn-outline-blue { background: #fff !important; border:1px solid #0d6efd !important; border-radius: 5px !important; color: #0d6efd !important;}
+.btn-outline-blue:hover { background: #0d6efd !important; border-radius: 5px !important; color: #fff !important;}
+.btn-blue:hover { background: #fff !important; border:1px solid #0d6efd !important; border-radius: 5px !important; color: #0d6efd !important;}
+.fs-24 { font-size: 24px; }
+.fs-22 { font-size: 22px; }
+.fs-21 { font-size: 21px; }
+.fs-18 { font-size: 18px; }
+.fs-16 { font-size: 16px; }
+.fs-14 { font-size: 14px; }
+.fs-12 { font-size: 12px; }
+.fs-11 { font-size: 11px; }
+.bg-blue-50 { background-color: #eff6ff !important; }
+.bg-blue-100 { background-color: #dbeafe !important; }
+.bg-blue-200 { background-color: #bfdbfe !important; }
+.bg-blue-300 { background-color: #93c5fd !important; }
+.bg-blue-400 { background-color: #60a5fa !important; }
+.bg-blue-500 { background-color: #3b82f6 !important; }
+.bg-blue-600 { background-color: #2563eb !important; }
+.bg-blue-700 { background-color: #1d4ed8 !important; }
+.bg-blue-800 { background-color: #1e40af !important; }
+.bg-blue-900 { background-color: #1e3a8a !important; }
+.card { border-radius: 10px !important; }
+.no-border { border: 0 solid #fff !important; }
+.bg-gray {background-color: #E5E5E5;}
+.bg-green { background-color: #3BB54A !important; }
+.bg-red { background-color: #BD0707 !important; }
+.bg-cyan { background-color: #00d1ff !important; }
+.hr-blue {height: 3px !important; border-width: 0 !important; color:#1e3a8a !important; background: #1e3a8a !important; }
+.bill {
+  text-align: center;
+  border: 2px solid #bd0707;
+  background-color: rgba(224, 200, 200, 0.25);
+  padding: 10%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.form-textarea { height: 100px !important; }
+.w-100 { width: 100% !important; }
+.h-1 { height: 1rem !important; }
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+.ck-rounded-corners {
+  height: 400px;
+}
